@@ -526,7 +526,7 @@
 
 .say-hello-form-block textarea{
 	display: block;
-	min-width: 768px;
+	min-width: 773px;
 	min-height: 207px;
 	margin-left: auto;
 	margin-right: auto;
@@ -606,4 +606,3 @@
 .fa-brands{
 	padding: 10px;
 }
-
