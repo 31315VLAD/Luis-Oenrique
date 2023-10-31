@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<header class="header">
+	<header class="header" id="home">
 		<div class="content-block header-content-wrap">
 			<div class="header-content">
 				<div class="header-content-logo">
@@ -34,11 +34,11 @@
 				<div class="header-content-nav-menu-wrap">
 					<nav>
 						<ul class="header-content-nav-menu">
-							<li><a href="">Home</a></li>
-							<li><a href="">About</a></li>
-							<li><a href="">Service</a></li>
-							<li><a href="">Portfolio</a></li>
-							<li><a href="">Contact</a></li>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#service">Service</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>	
 					</nav>
 				</div>
@@ -60,7 +60,7 @@
 		</div>
 	</header>
 
-	<section class="about-me">
+	<section class="about-me" id="about">
 		<div class="content-block about-me-content">
 			<div class="about-me-content-left">
 				<div class="about-me-content-left-title">KNOW MORE<br> 
@@ -77,7 +77,7 @@
 
 	<section class="services">
 	    <div class="content-block services-content">
-	      <div class="services-content-title">Services</div>
+	      <div class="services-content-title" id="service">Services</div>
 	      <div class="services-content-block-wrap">
 	        <div class="services-content-block">
 	          <div class="services-content-block-img">
@@ -142,7 +142,7 @@
 
 	<section class="portfolio">
 		<div class="content-block portfolio-content">
-			<div class="portfolio-content-title">Portfolio
+			<div class="portfolio-content-title" id="portfolio">Portfolio
 			</div>
 			<div class="portfolio-content-block-wrap">
 
@@ -287,7 +287,7 @@
 
 	<footer class="say-hello">
 		<div class="content-block say-hello-content">
-			<div class="say-hello-title">Say hello</div>
+			<div class="say-hello-title" id="contact">Say hello</div>
 			<div class="say-hello-form-wrap">
 
 				<input class="say-hello-form-inline" type="text" placeholder="Name">
@@ -297,7 +297,7 @@
 					<textarea placeholder="Message"></textarea>
 				</div>
 			</div>
-			<button class="say-hello-btn" tipe="submit">Send</button>
+			<a href=""><button class="say-hello-btn" tipe="submit">Send</button></a>
 		</div>
 
 		<div class="content-block footer-content">
@@ -329,7 +329,8 @@
 			<div class="footer-content-text">2017. All Right Reserved</div>
 		</div>
 	</footer>
-  
+
+
 	<script src="js/main.js"></script>
 </body>
 </html>
